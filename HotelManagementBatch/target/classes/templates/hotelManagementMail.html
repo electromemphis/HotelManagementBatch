@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title th:remove="all">Hotel Management Daily Report</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+    
+    <!-- <img src="cid:imtheguy"  height="80" width="80" /><em>  .com</em>
+    	<p th:text="#{greeting(${name})}"/>
+     -->
+    
+     
+    <div style="font-size:20px">
+    	Hotel Daily Report for <span th:text="${report.date}"></span>
+    </div>
+	<H4>Please see attached file for more details.</H4>
+ 	<b>Report Number: </b> <span th:text="${report.id}"></span>
+ 	<br/>
+ 	
+ 	<h6> <span><img src="cid:logo"  height="80" width="80" /></span> Gang of Four all rights reserved.</h6>
+
+    </body>
+</html>
